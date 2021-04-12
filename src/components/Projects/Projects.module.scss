@@ -1,0 +1,72 @@
+@import "../../variables.scss";
+
+.projectBox{
+    background: #010615;
+}
+.projectTitle{
+    color:white;
+    font-size: 3rem;
+    text-align: center;
+}
+.projectSubTitle{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.skillBox{
+  width: 100vw;
+}
+
+.carol{
+    display:block;
+   width:100vw;
+}
+
+
+.blurb{
+    position: absolute;
+    display: grid;
+    flex-direction: column;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    z-index: 21;
+    height:60%;
+    width: 60%;
+    border-radius: 15px;
+    background: #010615;
+    opacity: 0.8;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+.projectName{
+    position: absolute;
+    top:15%;
+    left:10%;
+}
+
+.readMe {
+    position: absolute;
+    line-height: 150%;
+    font-family: $primaryfont-family;
+    font-size: large;
+    padding-left: 10%;
+    top:30%;
+    padding-right: 10%;
+    // flex-wrap: wrap;
+}
+
+.skillUsed{
+    position: absolute;
+    list-style-type: none;
+    top:25%;
+    padding-left:10%;
+    
+}
+
+  

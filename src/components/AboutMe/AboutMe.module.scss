@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+
+.aboutMeContainer{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primaryfont-family;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      
+      background: #010615;
+    z-index: 1;
+    color: white;
+}
+.aboutMeContainer__title{
+    font-size: 5rem; 
+    padding-left: 3%; 
+}
+.aboutMeContainer__text{
+    font-size: 3rem; 
+    padding-left: 3%;  
+}
+
+

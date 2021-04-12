@@ -1,0 +1,59 @@
+@import "../../variables.scss";
+
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+      transform: translate(-50%, -50%);
+    
+    p {
+      margin: 0 0 20px;
+    }
+    
+  }
+
+.arrowButton {
+    background: none;
+    border: none;
+    margin-bottom: 160px;
+  }
+
+  .moreArrows {
+    width: 75px;
+    height: 65px;
+    position: relative;
+
+    &:hover {
+      
+      polygon {
+        fill: #FFF;
+        transition: all .2s ease-out;
+  
+        &.arrowBottom {
+          transform: translateY(-18px);
+        }
+  
+        &.arrowTop {
+          transform: translateY(18px);
+        }
+        
+      }
+    
+    }
+    
+  }
+  
+  polygon {
+    fill: #FFF;
+    transition: all .2s ease-out;
+      
+    &.arrowMiddle {
+        opacity: 0.75;
+      }
+  
+      &.arrowTop {
+        opacity: 0.5
+      }
+       
+  }

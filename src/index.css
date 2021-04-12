@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.carousel-control-next-icon {
+  color: black ;
+}
+.carousel-control-prev-icon {
+  color: black ;
+}

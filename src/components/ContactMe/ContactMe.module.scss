@@ -1,0 +1,88 @@
+@import "../../variables.scss";
+
+.contactMe {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+}
+#emailBox__backdrop {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primaryfont-family;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 100%;
+      width: 100%;
+      background: #010615;
+    z-index: 1;
+}
+
+#emailBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background: #060c21;
+    transition: 0.5s;
+    z-index: 2;
+
+}
+
+
+#emailForm{
+    .box__img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background: #060c21;
+        box-sizing: border-box;
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+                }
+
+}
+
+#emailBox:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+                  }
+    
+    #emailBox:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+    filter:blur(40px);
+                  }
+    
+    #emailBox:before, #emailBox:after {
+    background: linear-gradient(235deg,#BE6AD3,#010615,#7C95F1);
+    }
+
+    #contactButton{
+      left: 25%;
+    }

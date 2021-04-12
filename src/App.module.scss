@@ -1,0 +1,64 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./variables.scss";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  overflow-x: hidden;
+}
+
+
+//scrollbar settings:
+::-webkit-scrollbar{
+  width: 15px;
+ }
+
+::-webkit-scrollbar-track{
+  background: #010615;
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(#BE6AD3,#7C95F1);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(#BE6AD3,#7C95F1);
+  border-radius: 20px;
+}
+
+
+
+
+.contentSection{
+  height: 100%;
+  width: 100vw;
+}
+.ParallaxStyle{
+  height: 100vh;
+  width: 100vw;
+  top:0;
+  left:0;
+ 
+  .interWrap{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .interContent{
+    font-size: 2.7vh;
+    letter-spacing: 0.5vw;
+    z-index: 1;
+    background-color: #666;
+    color: white;
+    padding: 20px;
+  }
+}
+
