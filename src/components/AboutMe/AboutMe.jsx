@@ -1,12 +1,12 @@
 import React from 'react'
 import {Container, Row, Col } from 'react-bootstrap'
-import ProfilePic from './ProfilePic/ProfilePic.jsx';
+import ProfilePicture from '../../images/ProfilePic/profile.png';
 import styles from './AboutMe.module.scss';
 
 const AboutMe = () => {
     return (
     <section className={styles.aboutMeContainer}>
-         <Row>
+         <Row className="h-50 align-items centre">
              <Col>
           <div>
                 <div className={styles.aboutMeContainer__box}>
@@ -21,12 +21,12 @@ const AboutMe = () => {
                 </div>
             </div>
             </Col>
-            <Col>
-            <Container>
-           <ProfilePic/>
-           </Container>
+            <Col className="h-50">
+            <div className={styles.boxprofilePicture}>
+                <img src = {ProfilePicture} className={styles.profilePicture}/>
+            </div>
            </Col>
-           </Row>
+           </Row>  
     </section>
     )
 }

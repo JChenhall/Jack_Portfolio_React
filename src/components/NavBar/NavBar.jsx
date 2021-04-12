@@ -18,7 +18,7 @@ const NavBar = (props) => {
         <li><a href="#section1"><FontAwesomeIcon icon={faHome}/> <br/>Home</a></li>
         <li><a href="#section2"><FontAwesomeIcon icon={faLaptop}/><br/>Skills</a></li>
         <li><a href="#section3"><FontAwesomeIcon icon={faPalette}/><br/>Projects</a></li>
-        <li><a href="#section4"><FontAwesomeIcon icon={faUserAlt}/><br/>About Me</a></li>
+        <li><a href="#section4"><FontAwesomeIcon icon={faUserAlt}/><br/>About</a></li>
         <li><a href="#section5"><FontAwesomeIcon icon={faAddressBook}/><br/>Contact</a></li>
       </ul>
     </div>
