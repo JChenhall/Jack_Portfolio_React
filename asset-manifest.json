@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c27f5b9.chunk.css",
-    "main.js": "/static/js/main.911e4dc8.chunk.js",
-    "main.js.map": "/static/js/main.911e4dc8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cee47998.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cee47998.js.map",
+    "main.css": "/static/css/main.4d218e58.chunk.css",
+    "main.js": "/static/js/main.79c23f3a.chunk.js",
+    "main.js.map": "/static/js/main.79c23f3a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.019525bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.019525bf.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.553d6746.chunk.js": "/static/js/2.553d6746.chunk.js",
-    "static/js/2.553d6746.chunk.js.map": "/static/js/2.553d6746.chunk.js.map",
-    "static/js/3.d0edd432.chunk.js": "/static/js/3.d0edd432.chunk.js",
-    "static/js/3.d0edd432.chunk.js.map": "/static/js/3.d0edd432.chunk.js.map",
+    "static/js/2.87cc9adc.chunk.js": "/static/js/2.87cc9adc.chunk.js",
+    "static/js/2.87cc9adc.chunk.js.map": "/static/js/2.87cc9adc.chunk.js.map",
+    "static/js/3.b7b5a64c.chunk.js": "/static/js/3.b7b5a64c.chunk.js",
+    "static/js/3.b7b5a64c.chunk.js.map": "/static/js/3.b7b5a64c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.1c27f5b9.chunk.css.map": "/static/css/main.1c27f5b9.chunk.css.map",
-    "static/js/2.553d6746.chunk.js.LICENSE.txt": "/static/js/2.553d6746.chunk.js.LICENSE.txt",
+    "static/css/main.4d218e58.chunk.css.map": "/static/css/main.4d218e58.chunk.css.map",
+    "static/js/2.87cc9adc.chunk.js.LICENSE.txt": "/static/js/2.87cc9adc.chunk.js.LICENSE.txt",
     "static/media/brewdog.8cc45093.PNG": "/static/media/brewdog.8cc45093.PNG",
     "static/media/calcWideSame.1c4a7c4e.png": "/static/media/calcWideSame.1c4a7c4e.png",
     "static/media/citybridge.176f9220.jpg": "/static/media/citybridge.176f9220.jpg",
@@ -28,10 +28,10 @@
     "static/media/stringbridge3.b2a9127b.jpg": "/static/media/stringbridge3.b2a9127b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cee47998.js",
+    "static/js/runtime-main.019525bf.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.553d6746.chunk.js",
-    "static/css/main.1c27f5b9.chunk.css",
-    "static/js/main.911e4dc8.chunk.js"
+    "static/js/2.87cc9adc.chunk.js",
+    "static/css/main.4d218e58.chunk.css",
+    "static/js/main.79c23f3a.chunk.js"
   ]
 }
