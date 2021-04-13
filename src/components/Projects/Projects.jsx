@@ -112,7 +112,7 @@ const [ref, hovered] = useHover()
                                     <h1 className={styles.projectName}>My Side Scrolling Game</h1>
                                     <h2 className={styles.readMe}>
                                         I really enjoyed this project! By this point in the course I had found a real passion for CSS annimation and had been playing around with keyframes. I used this project as an excuse to put all of this together.
-                                        The main character and the skeleton are both still img strips taken from this free use website (_________________). I used keyframes to cycle the images in a specific direction like a flipbook giving the impression of movement.
+                                        The main character and the skeleton are both still img strips taken from this free use website (https://itch.io/game-assets/free/tag-pixel-art). I used keyframes to cycle the images in a specific direction like a flipbook giving the impression of movement.
                                         the jump animation and the main menu idles are the same. The jump was achieved with a simple JS element reposition and a detection if statement to fail the user if the character and skeleton connected.
                                         I had a lot of fun making this small game and have plans to come back and add a winner screen and levels.
                                     </h2>
@@ -185,7 +185,7 @@ const [ref, hovered] = useHover()
                                 <Col>
                                     <h1 className={styles.projectName}>BrewDog API</h1>
                                     <h2 className={styles.readMe}>
-                                        This project revolved around the BrewDog API ("____________"). The task was to get the information and display select items on the page. The user can search for BrewDog beers and check certain options using the checkboxes. 
+                                        This project revolved around the BrewDog API ("https://punkapi.com/"). The task was to get the information from the API and display select items on the page. The user can search for BrewDog beers and check certain options using the checkboxes. 
                                         This updates the display in real time which shows my understanding of API's and passing props in REACTJS.
                                     </h2>
                                 </Col>
