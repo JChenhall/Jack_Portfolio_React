@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7d99c2c8.chunk.css",
-    "main.js": "/static/js/main.773a0717.chunk.js",
-    "main.js.map": "/static/js/main.773a0717.chunk.js.map",
+    "main.js": "/static/js/main.6ded00fe.chunk.js",
+    "main.js.map": "/static/js/main.6ded00fe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.019525bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.019525bf.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -21,6 +21,7 @@
     "static/media/feather.ffbff207.jpg": "/static/media/feather.ffbff207.jpg",
     "static/media/gameWideSame.ee41361b.png": "/static/media/gameWideSame.ee41361b.png",
     "static/media/keyboard.fd42a2ea.jpg": "/static/media/keyboard.fd42a2ea.jpg",
+    "static/media/knowasteWideSame.eb206eb6.png": "/static/media/knowasteWideSame.eb206eb6.png",
     "static/media/morseWideSame.c991f8db.png": "/static/media/morseWideSame.c991f8db.png",
     "static/media/profile.71a65528.png": "/static/media/profile.71a65528.png",
     "static/media/react-brands.a5b68829.png": "/static/media/react-brands.a5b68829.png",
@@ -32,6 +33,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.87cc9adc.chunk.js",
     "static/css/main.7d99c2c8.chunk.css",
-    "static/js/main.773a0717.chunk.js"
+    "static/js/main.6ded00fe.chunk.js"
   ]
 }
