@@ -6,7 +6,7 @@ import calculator from '../../images/ProjectIcon/calcWideSame.png';
 import game from '../../images/ProjectIcon/gameWideSame.png';
 import morseCode from '../../images/ProjectIcon/morseWideSame.png';
 import beerApi from '../../images/ProjectIcon/brewdog.PNG';
-
+import knowaste from '../../images/ProjectIcon/knowasteWideSame.png';
 import angular from '../../images/Icons/angular-brands.png';
 import bootstrap from '../../images/Icons/bootstrap.png';
 import css from '../../images/Icons/css3-alt-brands.png';
@@ -187,6 +187,52 @@ const [ref, hovered] = useHover()
                                     <h2 className={styles.readMe}>
                                         This project revolved around the BrewDog API ("https://punkapi.com/"). The task was to get the information from the API and display select items on the page. The user can search for BrewDog beers and check certain options using the checkboxes. 
                                         This updates the display in real time which shows my understanding of API's and passing props in REACTJS.
+                                    </h2>
+                                </Col>
+                                <Col>
+                                    <h1 className={styles.projectName}>Skills Used</h1>
+                                        <ul className={styles.skillUsed}>
+                                            <li> <img src={html5}/> HTML5</li>
+                                            <li> <img src={css}/> CSS</li>
+                                            <li> <img src={sass}/> SASS / SCSS</li>
+                                            <li> <img src={jscript}/> JAVA SCRIPT</li>
+                                            <li> <img src={react}/> REACT</li>
+                                            <li> <img src={firebase}/> FIREBASE</li>
+                                            <li> <img src={nodejs}/> NODEJS</li>
+                                        </ul>
+                                </Col>
+                            </Row>
+                           
+                        </div>}
+                </Carousel.Item>
+
+                <Carousel.Item interval={2000} >
+                    <img
+                    className={styles.carol}  
+                    src={knowaste}
+                    alt="Fith slide"
+                    />
+
+                        <Carousel.Caption>
+                            <h3>Knowaste</h3>
+                            <input type button onClick={()=> window.open("https://knowaste-3c92c.web.app/home", "_blank")} value='Click here to see more' class="btn btn-lg btn-primary"></input>
+                        </Carousel.Caption>
+                        {hovered && 
+                        <div className={styles.blurb}>
+                           <Row>
+                                <Col>
+                                    <h1 className={styles.projectName}>Knowaste</h1>
+                                    <h2 className={styles.readMe}>
+                                    This project was commissioned by a small start-up company in Bristol who were looking for ways to reduce food waste of Bristol University halls. The task was to develop a MVP (minimum viable product) in 4 weeks.  
+                                    The MVP was to help them pitch their ideas to the university and to other potential stakeholders. The site itself lets the user to order meals before a specific weekly deadline which would provide food suppliers with an accurate number of meals to supply. 
+                                    The website also features an admin portal allowing authorised personnel to change the weekly menus as well as add meals to the roster. 
+                                    This project was a team effort for us all on the Nology course and gave me great experience of managing a team as well as working to strict deadlines, finishing sprints as well as communicating with clients and understanding their needs.
+                                    <br/>
+                                    You can view the user interface by logging in with:
+                                    <br/>
+                                    USERNAME: testuser
+                                    <br/>
+                                    PASSWORD: password1234
                                     </h2>
                                 </Col>
                                 <Col>
